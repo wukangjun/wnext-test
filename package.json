@@ -1,0 +1,27 @@
+{
+  "name": "sugar-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-cli -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/reactivity": "^3.0.0",
+    "@wnext/sugar": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/traverse": "^7.11.5",
+    "css-loader": "^4.3.0",
+    "glob": "^7.1.6",
+    "loader-utils": "^2.0.0",
+    "querystring": "^0.2.0",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}

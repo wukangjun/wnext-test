@@ -1,0 +1,6 @@
+
+<view>
+  <header :a="c">{{count}}</header>
+  <header>{{count > 0 ? double : hello}}</header>
+  <view bindtap="handler">hello world</view>
+</view>
